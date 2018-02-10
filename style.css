@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-color: #242d2d;
+}
+
+.topnav a {
+  float: left;
+  color: #e3eaea;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #242d2d;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #242d2d;
+  color: #e3eaea;
+}
+
+.topnav a.active:hover {
+  color: white;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: #e3eaea;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #242d2d;
+    min-width: 160px;
+    box-shadow: 0px d8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #e3eaea;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #94a39e;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+  border-radius: 9px;
+  font-family: 'Oswald', sans-serif;
+  color: #036AB1;
+  font-size: 135%;
+  padding: 10px 20px;
+  border: solid #036AB1 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #fff;
+  border: solid #fff 3px;
+}
+
+.youtube {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
